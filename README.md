@@ -40,6 +40,24 @@ Create a `.env` file in the project root and add your bot tokens:
     python3 bot.py
 ```
 
+## Project structure
+```
+├── bot.py                # Main script to run the bot
+├── transports/           # Modules for different transports
+│   ├── __init__.py       # Package initialization
+│   ├── discord.py        # Module for Discord integration
+│   └── telegram.py       # Module for Telegram integration
+│
+├── business_logic.py     # Bot's business logic
+├── config.py             # Configuration for tokens and settings
+├── requirements.txt      # Project dependencies
+├── README.md             # Project description
+├── .gitignore            # Git exclusions
+└── tests/                # Tests for the project
+    ├── __init__.py       # Test package initialization
+    └── test_bot.py       # Tests for bot functionality
+```
+
 ## Configuration
 
 To switch between Discord and Telegram, modify the instantiation of the `SimpleBusinessLogic` object in your entry script:
