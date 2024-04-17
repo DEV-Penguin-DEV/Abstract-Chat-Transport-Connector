@@ -45,11 +45,14 @@ Create a `.env` file in the project root and add your bot tokens:
 ├── bot.py                # Main script to run the bot
 ├── transports/           # Modules for different transports
 │   ├── __init__.py       # Package initialization
+│   ├── chat_transport.py # Module for abstract chat transport class
 │   ├── discord.py        # Module for Discord integration
 │   └── telegram.py       # Module for Telegram integration
 │
 ├── business_logic.py     # Bot's business logic
+├── colorful_formatter.py # ColorFormatter for logger
 ├── config.py             # Configuration for tokens and settings
+├── logging_setup.py      # Logger setup
 ├── requirements.txt      # Project dependencies
 ├── README.md             # Project description
 ├── .gitignore            # Git exclusions

@@ -1,0 +1,10 @@
+2024-04-17 13:47:23,857 - MyApp - ERROR - Invalid token for Discord bot
+2024-04-17 13:49:03,963 - MyApp - INFO - Logged in as Abstract Chat#4745!
+2024-04-17 13:49:56,838 - MyApp - INFO - Logged in as Abstract Chat#4745!
+2024-04-17 13:50:58,350 - MyApp - INFO - <transports.telegram.ChatTransportTelegram object at 0x10f2bec50>
+2024-04-17 13:55:40,501 - MyApp - ERROR - An unexpected error occurred: 'str' object has no attribute 'message'
+2024-04-17 13:56:08,914 - MyApp - ERROR - An unexpected error occurred: 'str' object has no attribute 'message'
+2024-04-17 13:56:51,994 - MyApp - ERROR - An unexpected error occurred: 'str' object has no attribute 'message'
+2024-04-17 13:57:00,156 - MyApp - ERROR - An unexpected error occurred: 'str' object has no attribute 'message'
+2024-04-17 13:59:21,797 - MyApp - ERROR - An unexpected error occurred: 'dict' object has no attribute 'message'
+2024-04-17 13:59:47,631 - MyApp - ERROR - An unexpected error occurred: 'dict' object has no attribute 'message'
